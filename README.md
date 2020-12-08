@@ -37,7 +37,14 @@ The API:
 
 |Type     |Name                   |Parameters  |Returns     |Description                                      |
 |---------|-----------------------|------------|------------|-------------------------------------------------|
-|_event_  |`enabled`            |            |            | Triggered when the user opens another file.
+|_event_  |`enabled`            |            |            | Metamask is connected
+|_event_  |`loggedIn`            |            |            | 3Box is connected
+|_event_  |`loggedOut`            |            |            | Logged out of 3Box
+|_event_  |`spaceOpened`            |            |            | 3Box space is opened
+|_event_  |`spaceClosed`            |            |            | 3Box space is closed
+|_event_  |`spaceClosed`            |            |            | 3Box space is closed
+|_method_  |`openSpace`            |            |            | Open the 3box space
+|_method_  |`isEnabled`            |            | bool           | metamask AND 3box are connected/logged to this plugin
 
 
 Where client is your remix client.
