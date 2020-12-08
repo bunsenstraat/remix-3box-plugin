@@ -53,7 +53,7 @@ The API:
 |_event_  |`loggedOut`            |            |            | Logged out of 3Box
 |_event_  |`spaceOpened`            |            |            | 3Box space is opened
 |_event_  |`spaceClosed`            |            |            | 3Box space is closed
-|_event_  |`spaceClosed`            |            |            | 3Box space is closed
+
 |_method_  |`login`            |            | bool           | connect metamask to this plugin, then login to 3box
 |_method_  |`openSpace`            |            | bool           | Open the 3box space
 |_method_  |`closeSpace`            |            | bool           | Open the 3box space
