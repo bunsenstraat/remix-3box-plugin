@@ -37,7 +37,7 @@ The API:
 
 |Type     |Name                   |Parameters  |Returns     |Description                                      |
 |---------|-----------------------|------------|------------|-------------------------------------------------|
-|_event_  |`currentFileChanged`   |            |            | Triggered when the user opens another file.
+|_event_  |`enabled`            |            |            | Triggered when the user opens another file.
 
 
 Where client is your remix client.
