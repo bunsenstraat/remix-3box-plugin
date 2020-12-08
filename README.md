@@ -21,6 +21,12 @@ Open a 3BOX space
 await client.call('box', 'openSpace', {})
 ```
 
+Store a private k/v
+
+```
+await this.client.call("box","setSpacePrivateValue","testkey","testvalue")
+```
+
 Where client is your remix client.
 <a href='https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview' target=_blank>https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview</a>
 
