@@ -18,7 +18,7 @@ Open a 3BOX space
 
 
 ```
-await client.call('box', 'openSpace', {})
+await client.call('box', 'openSpace')
 ```
 
 Store a private key value pair
