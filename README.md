@@ -52,11 +52,16 @@ The API:
 |_event_  |`spaceOpened`            |            |            | 3Box space is opened
 |_event_  |`spaceClosed`            |            |            | 3Box space is closed
 |_event_  |`spaceClosed`            |            |            | 3Box space is closed
-|_method_  |`login`            |            |            | connect metamask to this plugin, then login to 3box
-|_method_  |`openSpace`            |            |            | Open the 3box space
+|_method_  |`login`            |            | bool           | connect metamask to this plugin, then login to 3box
+|_method_  |`openSpace`            |            | bool           | Open the 3box space
+|_method_  |`closeSpace`            |            | bool           | Open the 3box space
 |_method_  |`isEnabled`            |            | bool           | metamask AND 3box are connected/logged to this plugin
-
-
-
+|_method_  |`isSpaceOpened`            |            | bool           | return true if the calling plugin has already an opened space
+|_method_  |`getSpaceName`            |            | string           | Gives the name of the space currently used
+|_method_  |`getSpacePrivateValue`            |            | string           | 
+|_method_  |`setSpacePrivateValue`            | key:string,value:string           | bool           | 
+|_method_  |`getSpacePublicValue`            |            | string           | 
+|_method_  |`setSpacePublicValue`            | key:string,value:string           | bool           | 
+|_method_  |`getSpaceName`            |            | string           | Gives the name of the space currently used
 
 
