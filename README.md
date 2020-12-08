@@ -10,12 +10,16 @@ Your plugin can basically call these functions if the user has activated the 3BO
 ## Installation
 
 Use the plugin manager in Remix to activate the '3BOX SPACES' plugin.
-Select the plugin in the sidebar and click 'Connect to metamax'. When it's connected you should see the logout button.
 
 ## Using it in your plugin
 
-Open a 3BOX space
+Get the 3BOX plugin to login to Metamask and 3BOX
 
+```
+await client.call('box', 'login')
+```
+
+Open a 3BOX space
 
 ```
 await client.call('box', 'openSpace')
@@ -33,6 +37,11 @@ Get a private key value pair
 await this.client.call("box","getSpacePrivateValue","testkey")
 ```
 
+
+Where client is your remix client.
+<a href='https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview' target=_blank>https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview</a>
+
+
 The API:
 
 |Type     |Name                   |Parameters  |Returns     |Description                                      |
@@ -43,12 +52,11 @@ The API:
 |_event_  |`spaceOpened`            |            |            | 3Box space is opened
 |_event_  |`spaceClosed`            |            |            | 3Box space is closed
 |_event_  |`spaceClosed`            |            |            | 3Box space is closed
+|_method_  |`login`            |            |            | connect metamask to this plugin, then login to 3box
 |_method_  |`openSpace`            |            |            | Open the 3box space
 |_method_  |`isEnabled`            |            | bool           | metamask AND 3box are connected/logged to this plugin
 
 
-Where client is your remix client.
-<a href='https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview' target=_blank>https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview</a>
 
 
 
