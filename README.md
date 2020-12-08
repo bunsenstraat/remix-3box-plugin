@@ -14,10 +14,11 @@ Select the plugin in the sidebar and click 'Connect to metamax'. When it's conne
 
 ## Using it in your plugin
 
-To call the 3BOX plugin:
+Open a 3BOX space
+
 
 ```
-client.call('box', 'openSpace', {})
+await client.call('box', 'openSpace', {})
 ```
 
 Where client is your remix client.
