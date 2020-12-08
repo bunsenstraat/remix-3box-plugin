@@ -3,7 +3,7 @@ A Remix plugin to access 3Box spaces
 
 This plugin provides an interface for remix plugins to interact with 3Box spaces.
 
-3Box provides private key-value storage linked to your eth address. Read more about it <a target=_blank href='https://docs.3box.io/api/storage'>https://docs.3box.io/api/storage</a>
+3Box itself provides private key-value storage linked to your eth address. Read more about it <a target=_blank href='https://docs.3box.io/api/storage'>https://docs.3box.io/api/storage</a>
 
 Your plugin can basically call these functions if the user has activated the 3BOX plugin.
 
@@ -12,6 +12,8 @@ Your plugin can basically call these functions if the user has activated the 3BO
 Use the plugin manager in Remix to activate the '3BOX SPACES' plugin.
 
 ## Using it in your plugin
+
+_Examples_
 
 Get the 3BOX plugin to login to Metamask and 3BOX
 
