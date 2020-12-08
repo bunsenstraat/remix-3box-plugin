@@ -33,6 +33,12 @@ Get a private key value pair
 await this.client.call("box","getSpacePrivateValue","testkey")
 ```
 
+The API:
+
+|Type     |Name                   |Parameters  |Returns     |Description                                      |
+|---------|-----------------------|------------|------------|-------------------------------------------------|
+|_event_  |`currentFileChanged`   |            |            | Triggered when the user opens another file.
+
 
 Where client is your remix client.
 <a href='https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview' target=_blank>https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview</a>
