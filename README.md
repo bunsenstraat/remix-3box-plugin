@@ -16,7 +16,9 @@ Select the plugin in the sidebar and click 'Connect to metamax'. When it's conne
 
 To call the 3BOX plugin:
 
+```
 client.call('box', 'openSpace', {})
+```
 
 Where client is your remix client.
 <a href='https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview' target=_blank>https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview</a>
