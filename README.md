@@ -58,9 +58,9 @@ The API:
 |_method_  |`isEnabled`            |            | bool           | metamask AND 3box are connected/logged to this plugin
 |_method_  |`isSpaceOpened`            |            | bool           | return true if the calling plugin has already an opened space
 |_method_  |`getSpaceName`            |            | string           | Gives the name of the space currently used
-|_method_  |`getSpacePrivateValue`            |            | string           | 
+|_method_  |`getSpacePrivateValue`            | key:string           | string           | 
 |_method_  |`setSpacePrivateValue`            | key:string,value:string           | bool           | 
-|_method_  |`getSpacePublicValue`            |            | string           | 
+|_method_  |`getSpacePublicValue`            | key:string           | string           | 
 |_method_  |`setSpacePublicValue`            | key:string,value:string           | bool           | 
 |_method_  |`getSpaceName`            |            | string           | Gives the name of the space currently used
 
