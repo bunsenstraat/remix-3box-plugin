@@ -1,4 +1,4 @@
-# remix-3box-plugin
+# REMIX 3BOX PLUGIN
 A Remix plugin to access 3Box spaces
 
 This plugin provides an interface for remix plugins to interact with 3Box spaces.
@@ -10,3 +10,16 @@ Your plugin can basically call these functions if the user has activated the 3BO
 ## Installation
 
 Use the plugin manager in Remix to activate the '3BOX SPACES' plugin.
+Select the plugin in the sidebar and click 'Connect to metamax'. When it's connected you should see the logout button.
+
+## Using it in your plugin
+
+To call the 3BOX plugin:
+
+client.call('box', 'openSpace', {})
+
+Where client is your remix client.
+<a href='https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview' target=_blank>https://github.com/ethereum/remix-plugin/tree/master/packages/plugin/webview</a>
+
+
+
